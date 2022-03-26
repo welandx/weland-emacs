@@ -1,0 +1,4 @@
+(global-set-key (kbd "C-c j") 'select-frame-by-name)
+(global-set-key (kbd "C-c b") 'switch-to-buffer)
+
+(provide 'init-workspace)
