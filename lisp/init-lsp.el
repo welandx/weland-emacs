@@ -25,8 +25,9 @@
 
 ;; optional if you want which-key integration
 (use-package which-key
-    :config
-    (which-key-mode))
+  :ensure t
+  :config
+  (which-key-mode))
 
 (use-package lsp-pyright
   :ensure t
