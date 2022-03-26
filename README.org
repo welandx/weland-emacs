@@ -1,0 +1,46 @@
+#+TITLE: weland Emacs
+
+* Info
+
+support for note-taking in Orgmode and programing of simple script
+
+Features: =org= =Python= =Meow= =Telega= =mu4e= =Java= =Latex= =Elisp=
+
+* Config
+
+** UI
+*Theme*: kaolin-valley
+
+*Font*: ~Jetbrains Mono Nerd~ and ~LXGW wenkai~
+
+Disable: tool-bar scroll-bar
+
+** Editor
+
+*** Meow
+QWERTY layout meow
+
+*** Company
+auto-comp front end
+
+*** Treesitter and Grammar Edit
+better hightlight and struct edit base on tree-sitter
+
+*** lsp
+auto-comp back end
+
+**** lsp-pyright
+use pyright as default python lsp server
+
+** Application
+*Telega*
+
+*mu4e*
+
+*rime*
+
+** Project
+*magit*: git client in Emacs
+
+** Org-mode
+agenda
