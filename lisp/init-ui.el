@@ -5,6 +5,10 @@
           (lambda (frame)
             (set-window-scroll-bars
              (minibuffer-window frame) 0 nil 0 nil t)))
+
+(scroll-bar-mode -1)
+
+
 (use-package all-the-icons
   :ensure t
   :if (display-graphic-p))
