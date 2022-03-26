@@ -44,3 +44,6 @@ use pyright as default python lsp server
 
 ** Org-mode
 agenda
+
+* View
+[[file:img/emacs-pre1.png]]
