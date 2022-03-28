@@ -22,6 +22,7 @@
                'ielm-mode-hook
                'sh-mode-hook
                'makefile-gmake-mode-hook
+               'org-mode-hook
                'php-mode-hook
                'python-mode-hook
                'js-mode-hook

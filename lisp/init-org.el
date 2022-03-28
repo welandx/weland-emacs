@@ -72,5 +72,7 @@
         org-roam-ui-update-on-save t
         org-roam-ui-open-on-start t))
 
+;; (use-package org-download)
+
 
 (provide 'init-org)

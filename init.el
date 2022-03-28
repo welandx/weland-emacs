@@ -72,11 +72,31 @@
 (require 'init-project)
 
 
+;; translate
+;; -----------------------------------------
+(require 'init-translate)
+
 ;; Email
 ;; ----------------------------------------------
 ;; !!! this require some config outside Emacs !!!
 ;; ----------------------------------------------
 (require 'init-mail)
+
+(use-package eaf
+  :load-path "~/.emacs.d/site-lisp/emacs-application-framework"
+  :custom
+  ; See https://github.com/emacs-eaf/emacs-application-framework/wiki/Customization
+  (eaf-browser-continue-where-left-off t)
+  (eaf-browser-enable-adblocker t)
+  (browse-url-browser-function 'eaf-open-browser))
+(require 'eaf-browser)
+(require 'eaf-mindmap)
+(require 'eaf-demo)
+(require 'eaf-git)
+
+
+;; JavaScript
+(require 'init-js)
 
 
 ;; -----------------------------------------

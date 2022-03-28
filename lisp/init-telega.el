@@ -1,7 +1,9 @@
 ;;; -*- lexical-binding: t -*-
 (use-package telega
   :ensure t
-  :defer t)
+  :defer t
+  :config
+  (telega-mode-line-mode 1))
 (global-set-key (kbd "C-c a") 'telega)
 
 ;; (global-set-key (kbd "d"))
