@@ -12,6 +12,13 @@
 (add-hook 'python-mode-hook #'linum-mode)
 (global-hl-line-mode 1)
 
+(use-package auto-save
+  :straight (auto-save :type git :host github :repo "manateelazycat/auto-save")
+  :ensure t
+  :config
+  (auto-save-enable)
+  (setq auto-save-silent t))
+
 ;; (use-package awesome-pair
 ;;   :straight (awesome-pair :type git :host github :repo "manateelazycat/awesome-pair"))
 ;; (dolist (hook (list

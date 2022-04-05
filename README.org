@@ -26,11 +26,15 @@ auto-comp front end
 *** Treesitter and Grammar Edit
 better hightlight and struct edit base on tree-sitter
 
+also (awesome-pair)
 *** lsp
 auto-comp back end
 
 **** lsp-pyright
 use pyright as default python lsp server
+
+*** Auto-save
+lazycat auto-save package 
 
 ** Application
 *Telega*

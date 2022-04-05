@@ -8,7 +8,8 @@
 ;; (global-tree-sitter-mode)
 
 (use-package grammatical-edit
-    :straight (grammatical-edit :type git :host github :repo "manateelazycat/grammatical-edit"))
+    :straight (grammatical-edit :type git :host github :repo "manateelazycat/grammatical-edit")
+    :ensure t)
 
 (dolist (hook (list
                'c-mode-common-hook

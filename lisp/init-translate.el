@@ -1,7 +1,7 @@
 (use-package go-translate
   :ensure t
   :defer t
-  :custom
+  :config
   (setq gts-translate-list '(("en" "zh")))
   (setq gts-default-translator
       (gts-translator
@@ -18,4 +18,3 @@
 
 (provide 'init-translate)
 
-;; based 回合制
