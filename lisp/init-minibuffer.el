@@ -17,6 +17,7 @@
 (use-package consult
   :ensure t)
 (global-set-key (kbd "C-s") 'consult-line)
+(global-set-key (kbd "C-c b") 'consult-buffer)
 
 (use-package embark
   :ensure t)
@@ -39,5 +40,10 @@
 		  (file-name-directory (expand-file-name file)))))
 
 (define-key embark-file-map (kbd "E") #'consult-directory-externally)
+
+(use-package pyim
+  :ensure t
+  :defer t)
+
 
 (provide 'init-minibuffer)

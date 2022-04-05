@@ -3,7 +3,8 @@
 (use-package tree-sitter-langs
   :ensure t)
 
-(add-hook 'python-mode-hook #'tree-sitter-mode)
+(add-hook 'python-mode-hook #'tree-sitter-hl-mode)
+(add-hook 'js-mode-hook #'tree-sitter-hl-mode)
 ;; (global-tree-sitter-mode)
 
 (use-package grammatical-edit

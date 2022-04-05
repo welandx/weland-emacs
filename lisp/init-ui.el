@@ -23,8 +23,8 @@
                         (fixed . "Jetbrains Mono")
                         (variable . "LXGW WenKai"))
   "Fonts to use.")
-  
-(defvar meomacs-font-size 16
+
+(defvar meomacs-font-size 14
   "Current font size.")
 
 (defun meomacs--get-font-family (key)
