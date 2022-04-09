@@ -66,6 +66,7 @@
    '("l" . meow-right)
    '("L" . meow-right-expand)
    '("m" . meow-join)
+   '("M" . meow-comment)
    '("n" . meow-search)
    '("o" . meow-block)
    '("O" . meow-to-block)

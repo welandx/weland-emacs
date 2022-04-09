@@ -36,6 +36,7 @@
 ;; -----------------------------------------
 (require 'init-org)
 
+(require 'init-md)
 
 ;; treesitter
 ;; -----------------------------------------
@@ -107,3 +108,5 @@
   (find-file "~/.emacs.d/init.el"))
 
 (global-set-key (kbd "C-c i") 'open-init-file)
+
+

@@ -2,6 +2,8 @@
 (with-eval-after-load "org"
   (define-key org-mode-map (kbd "C-c v") 'visible-mode))
 
+(global-set-key (kbd "C-c d") 'org-agenda)
+
 (use-package org-roam
   :ensure t
   :config
