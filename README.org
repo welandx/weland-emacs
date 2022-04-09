@@ -4,7 +4,7 @@
 
 support for note-taking in Orgmode and programing of simple script
 
-Features: =org= =Python= =Meow= =Telega= =mu4e= =Java= =Latex= =Elisp=
+Features: =org= =Python= =Meow= =Telega= =mu4e= =Java= =Latex= =Elisp= =JavaScript=
 
 * Config
 
@@ -33,15 +33,20 @@ auto-comp back end
 **** lsp-pyright
 use pyright as default python lsp server
 
+*** HTML/JS
+*HTML* : web-mode
+
+*JavaScript* : js2-mode(hightlight) tide(navi,autocmp)
+
 *** Auto-save
 lazycat auto-save package 
 
 ** Application
-*Telega*
+*Telega* require tdlib
 
-*mu4e*
+*mu4e* require mu
 
-*rime*
+*rime* require librime
 
 ** Project
 *magit*: git client in Emacs
