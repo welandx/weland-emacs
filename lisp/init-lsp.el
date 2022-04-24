@@ -3,7 +3,7 @@
   ;; set prefix for lsp-command-keymap (few alternatives - "C-l", "C-c l")
   (setq lsp-keymap-prefix "C-c l")
   :hook (;; replace XXX-mode with concrete major-mode(e. g. python-mode)
-         (python-mode . lsp)
+         ;;(python-mode . lsp)
          (java-mode . lsp)
          (c-mode . lsp)
          ;; if you want which-key integration
@@ -35,5 +35,8 @@
                           (require 'lsp-pyright)
                           (lsp))))  ; or lsp-deferred
 
+(use-package eglot
+  :ensure t
+  :defer t)
 
 (provide 'init-lsp)

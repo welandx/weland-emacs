@@ -3,6 +3,7 @@
   :ensure t
   :defer t
   :config
+  (telega-notifications-mode t)
   (telega-mode-line-mode 1))
 (global-set-key (kbd "C-c a") 'telega)
 
