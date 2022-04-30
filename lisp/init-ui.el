@@ -24,7 +24,7 @@
 ;; 4-font
 (defvar meomacs-fonts '((default . "Jetbrains Mono")
                         (unicode . "LXGW WenKai")
-                        (modeline . "Jetbrains Mono")
+                        (modeline . "LXGW WenKai")
                         (fixed . "Jetbrains Mono")
                         (variable . "LXGW WenKai"))
   "Fonts to use.")

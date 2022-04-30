@@ -1,6 +1,7 @@
 (use-package company
-    :ensure t
-(global-company-mode 1)
+  :defer t
+  :config
+    (global-company-mode 1))
 
 (with-eval-after-load "company"
   (require 'company-tng)

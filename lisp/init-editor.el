@@ -10,6 +10,7 @@
 ;;(global-linum-mode 1)
 (add-hook 'emacs-lisp-mode-hook #'linum-mode)
 (add-hook 'python-mode-hook #'linum-mode)
+(add-hook 'js2-mode-hook #'linum-mode)
 (global-hl-line-mode 1)
 
 (use-package auto-save
