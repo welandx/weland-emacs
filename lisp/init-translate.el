@@ -14,7 +14,8 @@
 ;;      :picker (gts-prompt-picker)
 ;;      :engines (list (gts-google-engine) (gts-google-rpc-engine))
 ;;      :render (gts-buffer-render)))
-
+(add-to-list 'load-path "~/.emacs.d/site-lisp/corfu-english-helper/")
+(require 'corfu-english-helper)
 
 (provide 'init-translate)
 

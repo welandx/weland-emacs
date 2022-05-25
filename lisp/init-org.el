@@ -26,7 +26,14 @@
   (org-roam-setup))
 
 (with-eval-after-load "org"
-  (require 'org-tempo))
+  (require 'org-tempo)
+  (setq org-ellipsis "⤵"))
+
+;; (require 'org-bullets)
+;;  ;; make available "org-bullet-face" such that I can control the font size individually
+;; (setq org-bullets-face-name (quote org-bullet-face))
+;; (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
+;; (setq org-bullets-bullet-list '("✙" "♱" "♰" "☥" "✞" "✟" "✝" "†" "✠" "✚" "✜" "✛" "✢" "✣" "✤" "✥"))
 
 (add-hook 'org-mode-hook 'org-indent-mode)
 
@@ -34,6 +41,10 @@
   (setq-local prettify-symbols-alist
               '(("#+begin_src" . "»")
                 ("#+end_src" . "«")
+                ("#+TITLE" . "题")
+                ("#+title" . "题")
+                ("#+AUTHOR" . "者")
+                ("#+FILETAGS" . "签")
                 ("#+begin_example" . "❯")
                 ("#+end_example" . "❮")
                 ("#+begin_quote" . "‟")

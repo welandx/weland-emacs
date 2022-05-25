@@ -20,6 +20,8 @@
   (auto-save-enable)
   (setq auto-save-silent t))
 
+(use-package vundo
+  :ensure t)
 ;; (use-package awesome-pair
 ;;   :straight (awesome-pair :type git :host github :repo "manateelazycat/awesome-pair"))
 ;; (dolist (hook (list

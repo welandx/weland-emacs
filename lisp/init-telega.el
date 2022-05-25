@@ -9,7 +9,8 @@
 
 ;; (global-set-key (kbd "d"))
 (with-eval-after-load 'telega
-  (define-key telega-msg-button-map "k" nil))
+  (define-key telega-msg-button-map "k" nil)
+  (define-key telega-msg-button-map "h" nil))
 
 (global-set-key (kbd "C-c s") 'telega-sticker-choose-favorite-or-recent)
 

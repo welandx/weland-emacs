@@ -99,6 +99,7 @@
 ;; JavaScript
 (require 'init-js)
 
+(require 'org-download)
 
 ;; -----------------------------------------
 ;; End
